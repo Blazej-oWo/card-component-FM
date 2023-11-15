@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,500;0,600;0,700;0,800;0,900;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Montserrat:ital,wght@0,500;0,600;0,700;0,800;0,900;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+margin:0;
+padding:0;
+box-sizing: border-box;
+}
+body{
+    background-color: hsl(30, 38%, 92%);
+}
+
+section{
+    top:70px;
+    background-color: white;
+    height:600px;
+    width:700px;
+    border-radius: 30px;
+    margin:100px auto;
+    position: relative;
+}
+.perfume
+{
+    width: 350px;
+    height: 100%;
+    border-radius:30px 0 0 30px;
+    background-image: url('images/image-product-desktop.jpg') ;
+    background-size: cover;
+    background-position: center;
+ 
+}
+h1 {
+    
+    font-family: Montserrat;
+    font-size:20px;
+    font-weight:500;
+    letter-spacing: 2px;
+    color:hsl(228, 12%, 48%);
+    text-transform: uppercase;
+    margin:40px 400px;
+}
+h2 {
+    font-family: fraunces;
+    font-size: 41px;
+    font-weight: bold;
+     width: 300px;
+    height: 100px;
+    margin:100px 0 0 400px;
+}
+    p{
+    font-family: Montserrat;
+    margin:260px 0 0 400px;
+    font-size: 14px;
+    width: 220px;
+    height: 120px;
+    line-height: 22px;
+    color:gray;
+
+}
+
+h1,h2,p,div{
+    position: absolute;
+}
+.price{
+    color:#42826A;
+    margin:400px 0 0 400px;
+    font-family: fraunces;
+    font-size:30px;
+}
+.discount_price{
+    font-family: Montserrat;
+    margin:410px 0 0 550px;
+    font-size:14px;
+    color:gray;
+    text-decoration: line-through;
+}
+.button_shop{
+    width:200px;
+    height:50px;
+    font-family: Montserrat;
+    margin:510px 0 0 400px;
+    background-color: #1A4031;
+    text-align: center;
+    line-height: 45px;
+    border-radius: 10px;
+    color: white;
+    cursor: pointer;
+}
+.button_shop:hover, .button_shop:focus{
+    background-color: #3F8068;
+}
+.button_shop img{
+    
+    padding: 10px 10px 0 0;
+}
+
+.attribution{
+ 
+    margin:80vh 45% 45% 0;
+
+}
+
+@media (max-width: 375px) {
+    .perfume
+{
+    width:94vw;
+    height: 40%;
+    background-color: black;
+    border-radius: 30px 30px 0 0;
+    background-image: url('/images/image-product-mobile.jpg');
+   
+}
+section {
+    top:-70px;
+    height:650px;
+    width:94vw;
+}
+.attribution {
+    margin: 780px 0 0 0;
+    text-align: center;
+} 
+h1{
+    
+    margin:280px 0 0 22px;
+    font-size: 14px;
+}
+h2 {
+    margin:310px 0 0 22px;
+    font-size: 28px;
+    letter-spacing: .6px;
+}
+p{
+    font-size: 10px;
+    margin:400px 0 0 22px;
+    font-size: 12px;
+    width: 260px;
+    letter-spacing: .2px;
+}
+.price{
+    margin:521px 0 0 22px;
+}
+.discount_price{
+    font-family: Montserrat;
+    margin:531px 0 0 160px;
+}
+.button_shop{
+    margin: 580px 0 0 22px;
+    width: 310px;
+}
+}
